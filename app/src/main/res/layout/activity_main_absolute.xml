@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityAbsolute">
+
+    <ImageView
+        android:id="@+id/imageViewAbsolute"
+        android:layout_width="205dp"
+        android:layout_height="226dp"
+        android:layout_x="104dp"
+        android:layout_y="68dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="77dp" />
+
+    <EditText
+        android:id="@+id/editTextAbsolute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="338dp"
+        android:ems="10"
+        android:hint="Enter your name"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <Button
+        android:id="@+id/buttonAbsolute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="420dp"
+        android:onClick="fnGreetlah"
+        android:text="Confirm Name and Rotate Your Device"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="421dp" />
+
+    <TextView
+        android:id="@+id/textViewAbsolute"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_x="0dp"
+        android:layout_y="491dp"
+        android:text="This is Absolute Layout. Try rotating your device."
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="526dp" />
+</android.widget.AbsoluteLayout>
